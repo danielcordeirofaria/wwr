@@ -1,0 +1,99 @@
+:root{
+    --blue: #002f63;
+    --yellow: #E7C24F;
+    --orange: #ff6c02;
+    --green: #48824C;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #fcfbfb;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+nav a{
+    text-align: center
+}
+
+#hero-msg h1{
+    text-align: center
+
+}
+
+#background {
+    height: 725px;
+}
+
+#hero-msg h4{
+    text-align: center
+}
+
+.button-box{
+    text-align: center
+}
+
+main section{
+    text-align: center
+}
+
+header{
+    background-color: var(--yellow);
+} 
+nav a:hover{
+    background-color: var(--blue);
+    color: var(--yellow);
+    
+} 
+
+nav a{
+    color: var(--green);
+}
+
+.book{
+    background-color: var(--yellow);
+    color: var(--green);
+    transition: padding 1s;
+
+}
+
+.join{
+    text-align: center;
+    transition: padding 1s;
+    color: var(--blue);
+
+}
+
+.book:hover, .join:hover{
+    background-color: var(--blue);
+    color: var(--yellow);
+    padding: 0.5rem;
+
+}
+
+#background{
+    background-color: var(--green);
+} 
+
+.msg{
+    color: var(--blue);
+    background-color: var(--green);
+    padding: 0 4rem;
+} 
+
+footer{
+    color: var(--yellow);
+    background-color: var(--blue);
+}
+
+footer p a{
+    color: var(--yellow);
+
+}
+
+.icon {
+    width: 80px;
+}
