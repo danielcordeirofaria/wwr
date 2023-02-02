@@ -15,8 +15,17 @@
     width: 100%;
 }
 
+.logo{
+    width: 80px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
 nav a{
-    text-align: center
+    text-align: center;
 }
 
 #hero-msg h1{
