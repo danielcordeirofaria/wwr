@@ -25,6 +25,10 @@ body{
     background-color: #fcfbfb;
 }
 
+#hero{
+    padding-bottom: 35px;
+}
+
 #hero-img{
     width: 100%;
 }
@@ -33,13 +37,23 @@ body{
     padding-top: 5px;
 }
 
+.rivers-card, .camping-card, .rapids-card, .msg{
+    padding-bottom: 35px;
+
+}
+
+#background{
+    margin: 0px 0 35px 0;
+}
+
+
 .mountains{
     width: 100%;
 
 }
 
 .card-img{
-    border: 10px solid #d9c2a3;
+    border: 10px solid var(--blue);
 }
 
 .logo{
@@ -63,6 +77,11 @@ nav a{
 
 h2{
     margin: 0;
+    padding-bottom: 1.5rem;
+}
+
+.msg h2{
+    padding-bottom: 0;
     padding-top: 1.5rem;
 }
 
@@ -97,42 +116,49 @@ main section img{
 
 header{
     background-color: var(--yellow);
+    padding-bottom: 15px;
+
 } 
 nav a:hover{
     background-color: var(--blue);
     color: var(--yellow);
-    
+    border-radius: 5px; 
+    border: 1px solid var(--blue);
 } 
 
 nav a{
     color: var(--green);
+    padding: 10px 35px;
+    transition: color 0.5s, background-color 0.5s;
+    border-radius: 5px; 
 }
 
 .book, .join{
-    font-size: 18px;
     padding: 15px 30px;
+    
 }
 
 .book{
     background-color: var(--yellow);
     color: var(--green);
     transition: color 0.5s, background-color 0.5s;
-    border-radius: 10px
+    border-radius: 5px
 }
 
 .join{
     text-align: center;
     transition: color 0.5s, background-color 0.5s;
     color: var(--blue);
-    border-radius: 10px
-
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .book:hover, .join:hover{
     background-color: var(--blue);
     color: var(--yellow);
-    border-radius: 10px; /* Valor em pixels para o raio */
-    border: 1px solid var(--blue); /* Adicionando uma borda sólida */
+    border-radius: 5px; 
+    border: 1px solid var(--blue); 
+    font-weight: bold;
 }
 
 #background{
@@ -142,12 +168,15 @@ nav a{
 .msg{
     color: var(--blue);
     background-color: var(--green);
-    padding: 0 4rem 1rem 4rem;
+    padding: 0 4rem 1.5rem 4rem;
+    margin: 35px 0;
+
 } 
 
 footer{
     color: var(--yellow);
     background-color: var(--blue);
+    padding: 1.5rem;
 }
 
 footer p a{
