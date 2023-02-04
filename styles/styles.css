@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sofia+Sans+Semi+Condensed:wght@200&display=swap');
+
 :root{
     --blue: #002f63;
     --yellow: #E7C24F;
     --orange: #ff6c02;
     --green: #48824C;
+
+/* change the values below to your chosen font(s) */
+--heading-font: "Indie Flower";
+--paragraph-font: Sofia , Helvetica, sans-serif;
+}
+
+body{
+    font-family: var(--heading-font);
+    background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 #content{
@@ -13,6 +27,19 @@
 
 #hero-img{
     width: 100%;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.mountains{
+    width: 100%;
+
+}
+
+.card-img{
+    border: 10px solid #d9c2a3;
 }
 
 .logo{
@@ -26,11 +53,25 @@ a{
 
 nav a{
     text-align: center;
+    padding: 35px;
 }
 
-#hero-msg h1{
-    text-align: center
+.home-title, h2, h4{
+    text-align: center;
+    font-size: 2em;
+}
 
+h2{
+    margin: 0;
+    padding-top: 1.5rem;
+}
+
+h2, h4{
+    font-size: 1.5rem;
+}
+
+p, a{
+    font-weight: bold;
 }
 
 #background {
@@ -42,11 +83,16 @@ nav a{
 }
 
 .button-box{
-    text-align: center
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 main section{
     text-align: center
+}
+
+main section img{
+    box-sizing: border-box;
 }
 
 header{
@@ -62,25 +108,31 @@ nav a{
     color: var(--green);
 }
 
+.book, .join{
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
 .book{
     background-color: var(--yellow);
     color: var(--green);
-    transition: padding 1s;
-
+    transition: color 0.5s, background-color 0.5s;
+    border-radius: 10px
 }
 
 .join{
     text-align: center;
-    transition: padding 1s;
+    transition: color 0.5s, background-color 0.5s;
     color: var(--blue);
+    border-radius: 10px
 
 }
 
 .book:hover, .join:hover{
     background-color: var(--blue);
     color: var(--yellow);
-    padding: 0.5rem;
-
+    border-radius: 10px; /* Valor em pixels para o raio */
+    border: 1px solid var(--blue); /* Adicionando uma borda sólida */
 }
 
 #background{
@@ -90,7 +142,7 @@ nav a{
 .msg{
     color: var(--blue);
     background-color: var(--green);
-    padding: 0 4rem;
+    padding: 0 4rem 1rem 4rem;
 } 
 
 footer{
