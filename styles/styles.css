@@ -298,3 +298,37 @@ footer p a{
         margin-top: 25px;
     }
 }
+
+/* Second Page - FAQ */
+
+.faq_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq_page_img{
+    width: 50%;
+    padding-top: 4rem;
+}
+
+.faq_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8rem;
+}
+
+.faq_text{
+    text-indent: 4rem;
+    padding: 0 0 0 4rem;
+    margin: 0;
+}
+
+.div_faq_text{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
