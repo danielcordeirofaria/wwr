@@ -411,26 +411,6 @@ textarea {
     resize: vertical;
 }
 
-/* .button {
-    
-} */
-
-/* .button_working{
-    background-color: var(--yellow);
-    color: var(--green);
-    transition: color 0.5s, var(--yellow) 0.5s;
-    border-radius: 5px;
-    padding: 15px 30px;
-}
-
-.button_working:hover{
-    background-color: var(--blue);
-    color: var(--yellow);
-    border-radius: 5px; 
-    border: 1px solid var(--blue); 
-    font-weight: bold;
-} */
-
 .main_contact_us{
     justify-content: center;
     display: flex;
@@ -443,4 +423,24 @@ textarea {
 .footer_contact_us{
     margin-top: 0;
     
+}
+
+.button_form{
+    background-color: var(--yellow);
+    color: var(--green);
+    transition: color 0.5s, background-color 0.5s;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-family: var(--heading-font);
+    font-size: 22px;
+    padding: 15px 30px;
+}
+
+.button_form:hover{
+    background-color: var(--blue);
+    color: var(--yellow);
+    border-radius: 5px; 
+    border: none solid var(--blue); 
+    font-weight: bold;
 }
