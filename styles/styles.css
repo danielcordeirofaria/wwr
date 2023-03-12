@@ -425,7 +425,7 @@ textarea {
     
 }
 
-.button_form{
+#button_form{
     background-color: var(--yellow);
     color: var(--green);
     transition: color 0.5s, background-color 0.5s;
@@ -437,7 +437,7 @@ textarea {
     padding: 15px 30px;
 }
 
-.button_form:hover{
+#button_form:hover{
     background-color: var(--blue);
     color: var(--yellow);
     border-radius: 5px; 
